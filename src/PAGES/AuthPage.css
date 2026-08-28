@@ -85,7 +85,7 @@
 }
 @media screen and (max-width: 600px) {
   .auth-card {
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 0.9fr 1fr;
     grid-template-columns: 1fr;
     width: 100%;
     height: 100vh;
