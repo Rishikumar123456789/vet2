@@ -27,9 +27,9 @@ const SigninForm = () => {
       }
     };
     return (
-      <div className="signup-form-container">
-        <form action="" className="sign-up-form" onSubmit={handleSubmit}>
-          <div className="signup-input-field-container">
+      <div className="signin-form-container">
+        <form action="" className="sign-in-form" onSubmit={handleSubmit}>
+          <div className="signin-input-field-container">
             <label htmlFor="email">Email</label>
             <div className="signin-input-with-icon">
               <FontAwesomeIcon icon={faEnvelope} className="signin-icon" />
@@ -46,7 +46,7 @@ const SigninForm = () => {
   
           <div className="signin-input-field-container">
             <label htmlFor="password">Password</label>
-            <div className="signup-input-with-icon">
+            <div className="signin-input-with-icon">
               <FontAwesomeIcon icon={faLock} className="signin-icon" />
               <input
                 className="signin-input-field"
